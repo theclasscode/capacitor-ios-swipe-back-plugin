@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:lookininward/capacitor-swipe-nav-plugin.git"
+    "url": "git@github.com:theclasscode/capacitor-ios-swipe-back-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/lookininward/capacitor-swipe-nav-plugin/issues"
+    "url": "https://github.com/theclasscode/capacitor-ios-swipe-back-plugin/issues"
   },
   "keywords": [
     "capacitor",

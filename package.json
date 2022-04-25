@@ -1,7 +1,7 @@
 {
   "name": "ios-swipe-back",
   "version": "0.0.1",
-  "description": "Enables swipe-back on ios.",
+  "description": "Enables swipe-back/forward navigation gestures on iOS.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",

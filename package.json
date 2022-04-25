@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lookininward/capacitor-ios-swipe-back.git"
+    "url": "git@github.com:lookininward/capacitor-swipe-nav-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/lookininward/capacitor-ios-swipe-back/issues"
+    "url": "https://github.com/lookininward/capacitor-swipe-nav-plugin/issues"
   },
   "keywords": [
     "capacitor",
@@ -37,7 +37,7 @@
     "eslint": "eslint . --ext ts",
     "prettier": "prettier \"**/*.{css,html,ts,js,java}\"",
     "swiftlint": "node-swiftlint",
-    "docgen": "docgen --api ExamplePlugin --output-readme README.md --output-json dist/docs.json",
+    "docgen": "docgen --api iOSSwipeBackPlugin --output-readme README.md --output-json dist/docs.json",
     "build": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.js",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",

@@ -1,10 +1,15 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { ExamplePlugin } from './definitions';
+import type { iOSSwipeBackPlugin } from './definitions';
 
-export class ExampleWeb extends WebPlugin implements ExamplePlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+export class iOSSwipeBackWeb extends WebPlugin implements iOSSwipeBackPlugin {
+  async enable(): Promise<void> {
+    console.log('ENABLE');
+    return undefined;
+  }
+
+  async disable(): Promise<void> {
+    console.log('DISABLE');
+    return undefined;
   }
 }

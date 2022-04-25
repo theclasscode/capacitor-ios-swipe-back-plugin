@@ -1,6 +1,6 @@
 {
-  "appId": "com.example.plugin",
-  "appName": "example",
+  "appId": "com.example.iOSSwipeBack",
+  "appName": "iOSSwipeBackPlugin",
   "bundledWebRuntime": true,
   "webDir": "www",
   "plugins": {

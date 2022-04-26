@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export interface iOSSwipeBackPlugin {\n  /**\n   * Enable swipe back gestures.\n   */\n  enable(): Promise<void>;\n\n  /**\n   * Disable swipe back gestures.\n   */\n  disable(): Promise<void>;\n}\n"]}

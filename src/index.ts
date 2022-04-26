@@ -8,3 +8,4 @@ const iOSSwipeBack = registerPlugin<iOSSwipeBackPlugin>('iOSSwipeBack', {
 
 export * from './definitions';
 export { iOSSwipeBack };
+exports.iOSSwipeBack = iOSSwipeBack;

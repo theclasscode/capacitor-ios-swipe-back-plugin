@@ -1,8 +1,8 @@
 export default {
-  input: 'dist/esm/index.js',
+  input: './index.js',
   output: [
     {
-      file: 'dist/plugin.js',
+      file: './plugin.js',
       format: 'iife',
       name: 'iOSSwipeBack',
       globals: {
@@ -12,7 +12,7 @@ export default {
       inlineDynamicImports: true,
     },
     {
-      file: 'dist/plugin.cjs.js',
+      file: './plugin.cjs.js',
       format: 'cjs',
       sourcemap: true,
       inlineDynamicImports: true,
